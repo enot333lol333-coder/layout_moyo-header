@@ -1,3 +1,38 @@
 body {
   margin: 0;
+  background-color: black;
 }
+
+.header {
+  background-color: white;
+}
+
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.nav__list {
+  display:flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 32px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav__link--active {
+  color: #00bcd4;
+  border-bottom: 3px solid #00bcd4;
+}
+
