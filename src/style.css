@@ -15,7 +15,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
   padding: 0 20px;
 }
 
@@ -38,6 +37,7 @@ body {
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   position: relative;
+  height: 80px;
 }
 
 .nav__link:hover {
